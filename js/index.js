@@ -10,7 +10,6 @@ const cargarTabla = () =>{
         let tdTotal = document.createElement("td");
         tdTotal.innerText = p.total;
         let tdMenu = document.createElement("td");
-        tdMenu.innerText = p.menu;
         let icono = document.createElement("i");
         if (p.menu == "Combo"){
             icono.classList.add("fas","fa-utensils","fa-3x");
